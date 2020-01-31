@@ -1,5 +1,6 @@
 {
-  "execMap": {
-    "js": "node -r sucrase/register"
-  }
+  "watch": ["src"],
+  "ext": ".ts,.js",
+  "ignore": [],
+  "exec": "node -r tsconfig-paths/register -r sucrase/register"
 }
