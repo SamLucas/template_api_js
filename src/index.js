@@ -4,6 +4,7 @@ import morgan from "morgan";
 import routes from "./Routes";
 
 require("dotenv").config();
+require("@/config/database");
 
 const app = express();
 

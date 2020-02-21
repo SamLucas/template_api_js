@@ -1,0 +1,3 @@
+# Migrations
+
+Place for migrations
