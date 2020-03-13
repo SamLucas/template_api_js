@@ -1,9 +1,12 @@
+require("dotenv").config();
+
 import express from "express";
 import cors from "cors";
 import morgan from "morgan";
 import routes from "./Routes";
+import mongoose from 'mongoose'
 
-require("dotenv").config();
+mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true, useUnifiedTopology: true })
 
 const app = express();
 
