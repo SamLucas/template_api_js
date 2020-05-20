@@ -1,5 +1,10 @@
 node_modules
+build
 
 .env
 .lock
 .log
+
+yarn-error.log
+yarn.lock
+
