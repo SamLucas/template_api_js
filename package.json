@@ -8,9 +8,7 @@
     "build": "babel src --out-dir build --source-maps inline",
     "start": "node ./build/server.js",
     "eslintify": "yarn eslint --fix src --ext .js",
-    "pretest": "NODE_ENV=test",
-    "test": "NODE_ENV=test jest",
-    "posttest": "NODE_ENV=test"
+    "test": "jest"
   },
   "dependencies": {
     "cors": "^2.8.5",
